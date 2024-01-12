@@ -23,6 +23,8 @@ section {
   margin: 6em 0;
 }
 
+/* Nav */
+
 .v49_2 {
   display: flex;
   flex-direction: row;
@@ -45,6 +47,8 @@ section {
   font-size: 16px;
   text-decoration: none;
 }
+
+/*  */
 
 .v49_3 {
   color: rgba(239, 240, 240, 1);
@@ -154,6 +158,15 @@ section {
   display: flex;
   flex-direction: column;
   gap: 2em;
+}
+
+.acerca_de_mi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  justify-content: center;
+
+
 }
 
 .v49_15 {
@@ -431,4 +444,127 @@ section {
 .v49_15_item-elemnt {
   width: 221px;
   height: 114px;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    padding: 0 2em;
+  }
+
+  /* nav */
+  .v49_2 {
+    margin-top: 1em;
+  }
+
+  .v49_69 {
+    width: 5em;
+  }
+
+  .v49_62 {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .v49_69_1 {
+    gap: 0.5em;
+    margin-left: 1em;
+  }
+
+  /* Esto es lo q hago */
+
+  .v49_12 {
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .v49_73 {
+    gap: 0;
+  }
+
+  .v49_73>img:first-child {
+    width: 60px;
+    height: 60px;
+    margin-top: 0.8em;
+  }
+
+  .v49_73 img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Trabajos */
+
+  .v49_4 {
+    width: 90%;
+  }
+
+  .cont_logos {
+    grid-template-columns: 1fr;
+    gap: 3em;
+  }
+
+  .v49_15_2_1,
+  .v49_15_2_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .v49_15_2_1_item,
+  .v49_15_2_2_item {
+    width: 100%;
+  }
+
+  .v49_51 {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  /* Acerca de mi */
+
+  .v62_50 {
+    width: 100%;
+  }
+
+  .button_cv {
+    margin-top: 1em;
+  }
+
+
+  .v49_12 {
+    width: 100%;
+  }
+
+  .acerca_de_mi {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .v49_87 {
+    width: 300px;
+  }
+
+  /* Contactame */
+  .v61_20_1 {
+    width: 100%;
+
+  }
+
+  .v61_20 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .v61_20_1> :nth-child(2) {
+    letter-spacing: 0;
+  }
+
+  .v61_20_2 {
+    width: 100%;
+  }
 }
