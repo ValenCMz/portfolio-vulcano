@@ -1,6 +1,6 @@
-/** @format */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -134,7 +134,6 @@ section {
 }
 
 .v49_12 {
-  width: 85%;
   justify-self: center;
   border: 7px solid rgba(32, 191, 85, 1);
   border-radius: 5px;
@@ -361,6 +360,24 @@ section {
   gap: 1em;
 }
 
+.circle_green {
+  width: 154.608px;
+  height: 151.195px;
+  background-color: #20BF55;
+  border-radius: 50%;
+  position: relative;
+}
+
+.icon_circle-music,
+.icon_circle-pasatiempos,
+.icon_circle-habilidades,
+.icon_circle-personal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .v49_88_1 {
   width: calc(45% - 3em);
   height: auto;
@@ -445,6 +462,42 @@ section {
   width: 221px;
   height: 114px;
 }
+
+#sobre-mi {
+  position: relative;
+}
+
+
+.img_mascota-1 {
+  background-image: url('../images/mascotas/desktop/1\ 1.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 90%;
+  left: 27%;
+}
+
+.img_mascota-2 {
+  background-image: url('../images/mascotas/desktop/2\ 7.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 84%;
+  top: 240%;
+}
+
+.img_mascota-3 {
+  background-image: url('../images/mascotas/desktop/3\ 10.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -7.5%;
+  top: 240%;
+}
+
 
 @media only screen and (max-width: 600px) {
   body {
@@ -742,54 +795,39 @@ section {
 
   .acerca_de_mi {
     margin-top: 7.625em;
-    gap: 5em;
+    gap: 4.375em;
   }
 
   .v49_88 {
     position: relative;
   }
 
-  .circle {
+  .circle_green {
     width: 62.175px;
     height: 60.802px;
   }
 
 
-  .icon_circle {
-    position: absolute;
-  }
-
   .icon_circle-music {
     width: 21.82px;
     height: 27.3px;
-    top: 28%;
-    left: 48.5%;
-    transform: translate(-50%, -50%);
-
   }
 
   .icon_circle-pasatiempos {
     width: 31px;
     height: 27px;
-    top: 26.5%;
-    left: 51%;
-    transform: translate(-50%, -50%);
   }
 
   .icon_circle-habilidades {
     width: 34px;
     height: 33px;
-    top: 26.5%;
-    left: 50.5%;
-    transform: translate(-50%, -50%);
+
   }
 
   .icon_circle-personal {
     width: 33px;
     height: 35px;
-    top: 26.5%;
-    left: 50.3%;
-    transform: translate(-50%, -50%);
+
   }
 
 
@@ -802,8 +840,27 @@ section {
     width: 150px;
     height: 156px;
     font-weight: 500;
-
   }
+
+
+  .img_mascota-1 {
+    background-image: url('../images/mascotas/mobile/1\ 2.png');
+    top: 105%;
+    left: 10%;
+  }
+
+  .img_mascota-2 {
+    background-image: url('../images/mascotas/mobile/2\ 8.png');
+    left: 65%;
+    top: 247%;
+  }
+
+  .img_mascota-3 {
+    background-image: url('../images/mascotas/mobile/3\ 11.png');
+    left: -7.1%;
+    top: 247%;
+  }
+
 
   /* Contactame */
 
