@@ -498,6 +498,10 @@ section {
   top: 240%;
 }
 
+.typed-cursor {
+  color: rgba(32, 191, 85, 1);
+  font-size: 40px;
+}
 
 @media only screen and (max-width: 600px) {
   body {
@@ -530,6 +534,10 @@ section {
   }
 
   /* Esto es lo q hago */
+
+  .typed-cursor {
+    font-size: 16px;
+  }
 
   .v49_3,
   .v49_3_1 {
