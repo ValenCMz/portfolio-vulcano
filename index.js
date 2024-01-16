@@ -1,4 +1,3 @@
-/** @format */
 
 document.addEventListener('DOMContentLoaded', function () {
   var enlacesMenu = document.querySelectorAll('.v49_69_1 a')
