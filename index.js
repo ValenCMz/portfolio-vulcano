@@ -78,3 +78,23 @@ const typed = new Typed('.typed', {
   contentType: 'html', // 'html' o 'null' para texto sin formato
 });
 
+
+// Cuando el usuario llega a ver este elemento en la pantalla, hace una animacion que aparece desde izquierda a derecha
+
+document.addEventListener('DOMContentLoaded', function () {
+  const element_scroll = document.querySelectorAll(".scroll_animation");
+
+  function checkVisibility() {
+    element_scroll.forEach((element) => {
+      const rect = element.getBoundingClientRect();
+      if (rect.top >= 0 && rect.top <= window.innerHeight) {
+        element.classList.add('show');
+      }
+    });
+
+  }
+
+  checkVisibility();
+  window.addEventListener('scroll', checkVisibility);
+});
+
